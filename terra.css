@@ -11,3 +11,8 @@ body {
 div, nav, footer {
     background-color: #2f4c49;
 }
+
+#home-img {
+    width: 50%;
+    max-width: 600px;
+}
