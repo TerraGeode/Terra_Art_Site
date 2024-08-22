@@ -1,4 +1,13 @@
 * {
     outline: 2px solid red;
     margin: 5px;
+    color: #d1d3bb;
+}
+
+body {
+    background-color: #392f13;
+}
+
+div, nav, footer {
+    background-color: #2f4c49;
 }
