@@ -1,6 +1,5 @@
 * {
     outline: 2px solid red;
-    margin: 5px;
     color: #d1d3bb;
 }
 
@@ -8,11 +7,35 @@ body {
     background-color: #392f13;
 }
 
-div, nav, footer {
+nav, footer, main {
     background-color: #2f4c49;
 }
 
 #home-img {
-    width: 50%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#index {
+    display: flex;
+}
+
+#indexC {
+    flex-basis: 50%;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+#indexImage {
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-height: 1000px;
 }
